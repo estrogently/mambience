@@ -65,7 +65,7 @@ public final class Generator {
 	}
 	
 	public static Path getFilePath(String dir, String targetPath) {
-		return Paths.get(targetPath + "Mambience-"+getVersion()+"-"+dir+".zip");
+		return Paths.get(targetPath + "mambience-"+getVersion()+"-"+dir+".zip");
 	}
 	
 	private static String getVersion() {

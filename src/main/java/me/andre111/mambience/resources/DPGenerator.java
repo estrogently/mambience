@@ -17,7 +17,7 @@ package me.andre111.mambience.resources;
 
 public final class DPGenerator {
 	// run with
-	// java -cp Mambience-[version].jar me.andre111.mambience.resources.DPGenerator
+	// java -cp mambience-[version].jar me.andre111.mambience.resources.DPGenerator
 	// to generate/extract the datapack
 	public static void main(String[] args) {
 		Generator.generate("data");

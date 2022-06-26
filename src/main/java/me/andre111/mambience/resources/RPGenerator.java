@@ -17,7 +17,7 @@ package me.andre111.mambience.resources;
 
 public final class RPGenerator {
 	// run with
-	// java -cp Mambience-[version].jar me.andre111.mambience.resources.RPGenerator
+	// java -cp mambience-[version].jar me.andre111.mambience.resources.RPGenerator
 	// to generate/extract the resourcepack
 	public static void main(String[] args) {
 		Generator.generate("assets");
